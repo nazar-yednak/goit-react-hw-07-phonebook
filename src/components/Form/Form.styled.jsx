@@ -16,4 +16,5 @@ export const FormInput = styled.input`
 `;
 export const FormButton = styled.button`
   background-color: green;
+  width: 230px;
 `;

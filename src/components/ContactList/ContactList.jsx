@@ -38,6 +38,7 @@ function Contact() {
             </DeleteButton>
           </ContactItem>
         ))}
+
       {visibleContacts?.length === 0 && <p>No contacts</p>}
     </ContactList>
   );

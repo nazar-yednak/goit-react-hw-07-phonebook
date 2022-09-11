@@ -43,7 +43,7 @@ function Form() {
           title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
           required
         />
-        <FormButton type="submit"> add contact</FormButton>
+        <FormButton type="submit">add contact</FormButton>
       </FormPhonebook>
     </div>
   );
