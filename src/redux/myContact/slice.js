@@ -52,6 +52,6 @@ export const contactSlice = createSlice({
 
 export const { filterOut } = contactSlice.actions;
 
-// селектори
+// селектор
 
 export const getFilters = state => state.contacts.filter;

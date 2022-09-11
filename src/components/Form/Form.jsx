@@ -11,7 +11,7 @@ function Form() {
     event.preventDefault();
     const name = event.target.name.value;
     const number = event.target.number.value;
-    const existingContact = contacts.find(contact => name === contact.name);
+    const existingContact = contacts?.find(contact => name === contact.name);
     if (existingContact) {
       return alert(`${name} is already in contacts`);
     } else {
